@@ -29,9 +29,27 @@
          </div>
       </div>
    </center>
-   <div class="container">
+   <div class="container2">
       <button type="submit" class="btn" onclick="openPopup()">Submit</button>
       <div class="popup id="popup">
-         <img src=tick.png
+         <img src=images.png>
+         <h2 class="Thankyou">Thank You!</h2>
+         <p>Your details have been successfully submitted. Thanks!</p>
+         <button type="button" onclick="closePopup()">OK</button>
+      </div>
+   </div>
+   
+   </script>
    </body>
+   <script>
+      let popup = document.getElementById("popup");
+
+      function openPopup(){
+         popup.classList.add("open-popup");
+      }
+      function closePopup(){
+         popup.classList.add("open-popup");
+      }
+
+   </script>
 </html>
