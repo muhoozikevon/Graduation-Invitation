@@ -182,6 +182,28 @@ h2 {
     width: 100%;
     height: auto;
 }
+/* Media queries for responsiveness */
 
+/* For tablets and below (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .slider {
+        max-width: 100%; /* Makes the slider full-width on smaller screens */
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .slider {
+        max-width: 100%;
+        margin: 10px; /* Add some margin for mobile */
+    }
+}
+
+/* For large desktop screens (min-width: 1200px) */
+@media only screen and (min-width: 1200px) {
+    .slider {
+        max-width: 800px; /* Larger slider for larger screens */
+    }
+}
    
    
