@@ -26,13 +26,9 @@ body {
    }
 }
 
-img {
-   max-width: 500px;
-   overflow:hidden;
-   z-index:12;
-   border-radius:9px 219px 5px 8px;
-   box-shadow:12px 13px 14px rgba(0, 0, 0, 0.9);
-}
+/*img {
+   
+}*/
 .title{
    max-width:100%;
    background:transparent;
@@ -181,6 +177,11 @@ h2 {
 .slides img {
     width: 100%;
     height: auto;
+   max-width: 500px;
+   overflow:hidden;
+   z-index:12;
+   border-radius:9px 219px 5px 8px;
+   box-shadow:12px 13px 14px rgba(0, 0, 0, 0.9);
 }
 /* Media queries for responsiveness */
 
